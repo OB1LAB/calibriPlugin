@@ -1,0 +1,7 @@
+name: Calibri
+version: 1.0
+main: ob1lab.calibri.Main
+commands:
+  calibri:
+    usage: /calibri
+    aliases: [ cl ]

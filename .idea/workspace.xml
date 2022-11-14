@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Calibri" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8f9984d-8374-4128-9f5e-8680bfaeec96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Calibri.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calibri.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Cart/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Cart/CartItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Requests/Requests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/AbstractCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/MainCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/StaffList.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="calibri/invalid/Minecraft" />
+    </ignored-facets>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HRdEptBk5ztkZogkw62xObWacs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/OB1CHAM/Desktop/OB1LAB/minecraft/server_vanila_1.7.10/craftbukkit-1.7.10.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Server" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/../../server_vanila_1.7.10/craftbukkit-1.7.10.jar" />
+      <option name="VM_PARAMETERS" value="-Xmx2G -Xms2G -Xss1M -Xmn128M -Dfile.encoding=UTF-8" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\OB1CHAM\Desktop\OB1LAB\minecraft\server_vanila_1.7.10\" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Calibri" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8f9984d-8374-4128-9f5e-8680bfaeec96" name="Changes" comment="" />
+      <created>1668251723067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668251723067</updated>
+      <workItem from="1668251725269" duration="3625000" />
+      <workItem from="1668256390758" duration="53000" />
+      <workItem from="1668256454815" duration="32500000" />
+      <workItem from="1668335762501" duration="20053000" />
+      <workItem from="1668418365086" duration="6122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="minecraft" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

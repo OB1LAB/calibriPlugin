@@ -1,0 +1,95 @@
+cart:
+  urlWebHook: "https://discord.com/api/webhooks/1041364163823411320/UI3VQJK-xrPgCgQ6ZK5OVemBzbZrF3LkasI3vt7rt9i5H3oQZRGhSc_IdghwbazGufD7"
+  urlServer: "http://127.0.0.1:3001/api/minecraftCart/dt"
+  serverCode: "&QKWc'U2EqJ&Xv165rdkzF0q*g/%f6Z7xZf*:zXNN$q:0NUL9+g_1qu4SBmP)~Wf"
+messages:
+  noPermission: "&4Недостаточно прав для выполнения данной команды"
+  notEnoughArguments: "&4Недостаточно аргументов"
+  argumentNotFound: '&4Аргумент не найден'
+  playerInStaffList: '&4У {player} уже есть доступ к данной команде'
+  playerNotInStaffList: '&4У {player} и так не было доступа к данной команде'
+  successAddStaffList: '&2{player} успешно дан доступ'
+  successRmStaffList: '&2{player} успешно отжат доступ'
+  successfulGiveItems: "&2Предметы успешно выданы"
+  successfulUpdateCart: "&2Корзина успешно обновлена"
+  successfulWipeCart: "&2Корзина успешно обнулена"
+  indexItemMustBeInteger: "&4Номер предмета должен быть числом"
+  indexItemNotFound: "&4Предмет по данному номеру не найден"
+  NotEnoughSlots: "&4Недостаточно свободных слотов в инвентаре"
+  NotEnoughAmountItems: "&4Недостаточно количество предметов"
+  listEmpty: "&4Список пустой"
+  cartEmpty: "&4В корзине ничего нет"
+  mustBeInList: "&4Вы должны быть в списке"
+  numberMustBePositive: "&4Число должно быть больше нуля"
+  timeout: "&4Данную команду можно прописывать раз в 15 секунд"
+  webhook: '{
+    "content": null,
+    "embeds": [
+      {
+        "title": "{action}",
+        "description": "```js\n{items}```",
+        "color": 390655,
+        "author": {
+          "name": "{player}",
+          "icon_url": "https://skins.mcskill.net/?name={player}&mode=5"
+        }
+      }
+    ],
+    "attachments": []
+  }'
+  info: "
+           &6================================================\n
+           &2Доступ к автовыдаче предметов/Кейсов (cart)\n
+           &e1. &3staff add {PlayerName}\n
+           &e2. &3staff rm {PlayerName}\n
+           &e3. &3staff list {PlayerName}\n
+           &e4. &3staff wipe\n
+           &7add - Добавление\n
+           &7rm - Удаление\n
+           &7list - Список игроков, имеющие доступ к автовыдаче\n
+           &7wipe - Обнулить корзины всех игроков\n
+           &7{PlayerName} - Никнейм игрока\n
+           &2Магазин\n
+           &e1. &3cart\n
+           &e2. &3cart get {id}\n
+           &e3. &3cart get {id} {amount}\n
+           &e4. &3cart get all\n
+           &e5. &3cart update\n
+           &7cart - Вывод списка всех купленных предметов\n
+           &7cart get - Получить купленный предмет/Кейс с сайта\n
+           &7cart update - Обновить информацию о кулпенный предметах/Кейсах\n
+           &7{id} - Номер предмета\n
+           &7{amount} - Количество получаемых предметов/Кейсов. По умолчанию выдаётся полностью\n
+           &6================================================
+        "
+  item: "&e{index}. &3{item} - &7{amount} шт. "
+  items: "
+           &6================================================\n
+           {items}\n
+           &6------------------------------------------------\n
+           &e1. &3cart get {id}\n
+           &e2. &3cart get {id} {amount}\n
+           &e3. &3cart get all\n
+           &e4. &3cart update\n
+           &6================================================
+        "
+  itemsIfItemsIsNone: "
+             &6================================================\n
+             &4Список пустой\n
+             &6------------------------------------------------\n
+             &e1. &3cart get {id}\n
+             &e2. &3cart get {id} {amount}\n
+             &e3. &3cart get all\n
+             &e4. &3cart update\n
+             &7cart get - Получить купленный предмет/Кейс с сайта\n
+             &7cart update - Обновить информацию о кулпенный предметах/Кейсах\n
+             &7{id} - Номер предмета\n
+             &7{amount} - Количество получаемых предметов/Кейсов. По умолчанию выдаётся полностью\n
+             &6================================================
+          "
+  player: "&e{index}. &3{player}"
+  playerList: "
+                &6==============================\n
+                {players}\n
+                &6==============================
+              "
