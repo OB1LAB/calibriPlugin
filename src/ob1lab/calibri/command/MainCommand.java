@@ -31,6 +31,10 @@ public class MainCommand extends AbstractCommand {
                 Message.noPermission.send(sender);
                 return;
             }
+            if (args.length < 2) {
+                Message.notEnoughArguments.send(sender);
+                return;
+            }
             if (args[1].equalsIgnoreCase("list")) {
                 StaffList.list(sender);
                 return;
