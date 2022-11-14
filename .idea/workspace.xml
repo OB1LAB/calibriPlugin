@@ -9,29 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8f9984d-8374-4128-9f5e-8680bfaeec96" name="Changes" comment="">
+    <list default="true" id="c8f9984d-8374-4128-9f5e-8680bfaeec96" name="Changes" comment="version 1.01 (Убран лишний отладочный принт)">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Calibri.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_7_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/calibri.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Cart/CartItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Cart/CartItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Requests/Requests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/AbstractCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/MainCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ob1lab/calibri/command/StaffList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
